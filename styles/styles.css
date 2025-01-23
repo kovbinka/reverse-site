@@ -1,0 +1,88 @@
+<style > </style > element.style {
+  opacity: 1;
+}
+.announcment-bar {
+  border-bottom: 1px solid var(--border-white);
+  color: var(--white);
+  background-color: #0eff01;
+  flex-flow: row;
+  place-content: flex-start center;
+  align-items: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+  min-height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+
+user agent stylesheet div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.text_block {
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Neuepixelgrotesk, sans-serif;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.announcement-bar-text {
+  text-align: center;
+  flex-wrap: nowrap;
+  flex: 0 auto;
+  place-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -2px;
+  margin-bottom: -6px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  color: var(--dark-gray);
+  font-family: Open Sauce One, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+:root {
+  --dark-gray: #131313;
+  --border-dark: #13131326;
+  --white: white;
+  --border-white: #ffffff26;
+  --light-gray: whitesmoke;
+}
